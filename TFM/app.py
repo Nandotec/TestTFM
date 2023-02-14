@@ -12,4 +12,4 @@ def index():
 def greet():
 	#flash("Hi " + str(request.form['name_input']) + ", great to see you!")
 	#request.form['name_input']
-	return render_template("index.html")
+	return render_template("index2.html")
