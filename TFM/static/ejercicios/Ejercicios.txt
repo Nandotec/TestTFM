@@ -1,0 +1,2 @@
+"Cometer este error podria ser el equivalente en desarrollo web a dejar la llave debajo del tapete de entrada a una casa: cualquiera la encuentra si sabe donde buscar."
+"Cuando se desarrolla, es bueno saber diferenciar entre que deberia ser frontend, y que deberia ser backend. Poner todo en un lugar es riesgoso."

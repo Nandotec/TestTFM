@@ -1,0 +1,3 @@
+Una de las vulnerabilidades mas simple, y desafortunadamente mas facilmente problematica, que se puede introducir. Cuando se permite que elementos ajenos al flujo regular del usuario existan (aun si es tecnicamente invisible) en el codigo HTML, se abre la puerta a la fuga de informacion mas simple de explotar, puesto que no se requiere esencialmente nada mas que el navegador en si, el cual ya estariamos usando por el hecho de estar en una pagina web. Dos errores comunes que llevaran a esta vulnerabilidad son:
+Introducir un comentario durante el desarrollo de la pagina y olvidar remover al liberarla en vivo.
+La documentacion excesiva de las paginas desarrolladas, resultando en revelar mas informacion de la necesaria al usuario.

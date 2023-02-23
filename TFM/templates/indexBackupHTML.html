@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fugas de Información</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+
+	<img src="https://thumbs.dreamstime.com/b/login-icon-button-vector-illustration-isolated-white-background-127000355.jpg" width="100" height="100">
+	<br>
+	<form action="greet" method="post">
+		{% for message in get_flashed_messages()%}
+			<p> {{message}} </p>
+		{% endfor %}
+		<br>
+		<input type="text" name="name_input">
+		<br>
+		<input type="submit" value="GREET" id="greet">
+	</form>
+</body>
+</html>
+
